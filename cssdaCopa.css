@@ -1,0 +1,51 @@
+body { margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Faz o body ocupar toda a altura */
+}
+
+h1{color: #ffffff;}
+li{ color: rgb(245, 239, 239);
+    font-size: 30px; font-weight: bold;}
+      p{ color:rgb(255, 255, 255);}
+
+.header { background-color: #21790c;
+    padding: 1rem 2rem;
+    display: flex;
+justify-content: space-between; /* Afasta o logo do menu */
+        align-items: center; } /* Alinha ambos verticalmente ao centro */
+
+.main-content { flex: 1; /* Faz o conteúdo ocupar o espaço restante */
+padding: 20px;}
+
+.footer { background-color: #0d179b;
+    color: white;
+    text-align: center;
+padding: 10px;
+margin-top: auto;}/* Garante que fique no final */
+
+.logo { color: white;
+font-weight: bold;
+font-size: 1.5rem;}
+
+/* Remove marcadores e margens da lista */
+.menu ul {list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Deixa os itens do menu lado a lado */
+    gap: 20px; }/* Cria espaçamento controlado entre os links */
+
+    /* Estilo para os links do menu */
+    .menu a { color: #fff; 
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;}
+
+    /* Efeito ao passar o mouse */ 
+    .menu a: hover { color: #00bcd4;}
+    
+    h7{color: #ffffff;
+        font-size: 25px; font-weight: bold;}
+img{  margin: 30px;
+    padding: 30px;
+    ;}
